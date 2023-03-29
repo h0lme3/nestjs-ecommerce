@@ -1,6 +1,7 @@
-import { CreateProductDTO } from './dtos/create-product.dto';
 import { Controller, Post, Get, Put, Delete, Body, Param, Query, NotFoundException } from '@nestjs/common';
+
 import { ProductService } from './product.service';
+import { CreateProductDTO } from './dtos/create-product.dto';
 import { FilterProductDTO } from './dtos/filter-product.dto';
 
 @Controller('product')
